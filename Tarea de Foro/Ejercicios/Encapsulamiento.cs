@@ -9,4 +9,5 @@ namespace Tarea_de_Foro.Ejercicios
     internal class Encapsulamiento
     {
     }
+
 }

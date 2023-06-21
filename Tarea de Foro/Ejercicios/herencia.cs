@@ -37,4 +37,18 @@ namespace Tarea_de_Foro.Ejercicios
             Console.WriteLine("El carro ya va  corriendo. ");
         }
     }
+    class Moto : Transporte
+    {
+        public void Empezar()
+        {
+            Console.WriteLine("La motocicleta esta Arrancando. ");
+        }
+    }
+    class Bicicleta : Transporte
+    {
+        public void Correr()
+        {
+            Console.WriteLine("La bicicleta esta en Marcha");
+        }
+    }
 }
