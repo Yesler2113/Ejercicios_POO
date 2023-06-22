@@ -38,11 +38,28 @@ using Tarea_de_Foro.Ejercicios;
 //int resultado3 = calculadora.sumar(67, 78, 89);
 //Console.WriteLine("El resultado de la suma es: " + resultado3);
 
-Vehiculo auto = new Vehiculo("Toyota", "Hilux");
-auto.Informacion();
-Console.WriteLine();
+//Vehiculo auto = new Vehiculo("Toyota", "Hilux");
+//auto.Informacion();
+//Console.WriteLine();
 
-Motocicleta m = new Motocicleta("Yamaha", "YBR125", "Deportiva");
-m.Informacion();
+//Motocicleta m = new Motocicleta("Yamaha", "YBR125", "Deportiva");
+//m.Informacion();
 
-Console.ReadLine();
+//Console.ReadLine();
+
+Carro2 carro = new Carro2();
+carro.Modelo = "Hilux";
+carro.Marca = "Toyota";
+carro.Año = 2023;
+Console.WriteLine($"Modelo: {carro.Modelo}");
+Console.WriteLine($"Marca: {carro.Marca}");
+Console.WriteLine($"Año: {carro.Año}");
+
+carro.ArrancarCarro();
+carro.ArrancarCarro();
+carro.Frenar();
+carro.Frenar();
+
+Console.ReadLine() ;
+
+
